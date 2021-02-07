@@ -1,0 +1,32 @@
+.header {
+    border: 1px solid #CCC;
+    float: left;
+    width: 100%;
+    background-color: #000;
+
+    .logo-container {
+
+        float: left;
+        width: 20%;
+
+        .logo {
+            width: 80px;
+            height: 80px;
+        }
+    }
+    .options {
+
+        float: left;
+        width: 80%;
+        text-align: right;
+        margin-top: 30px;
+
+        .option {
+            margin: 0px 20px;
+            color: #FFF;
+        }
+        .option:hover {
+            color: #61dafb;
+        }
+    }
+}
