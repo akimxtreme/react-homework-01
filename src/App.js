@@ -10,8 +10,6 @@ import LivingBeingPage from './pages/living-beings/living-beings.component'
 // Component
 import Header from './components/header/header.component';
 
-import logo from './logo.svg';
-
 class App extends React.Component {
   constructor(){
     super();
