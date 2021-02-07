@@ -6,7 +6,18 @@ import './elements.styles.scss';
 class Elements extends React.Component {
     constructor(){
         super();
+        this.state = { living_beings : LIVING_BEINGS_DATA };
     }
-};
+
+    render() {
+        return (
+            <div className='elements'>
+                { this.state.living_beings.map(( { id, ...otherLivingBeings } ) => (
+                    <Element key={id} {...otherLivingBeings} />
+                ))}
+            </div>
+        );
+    }
+}
 
 export default Elements;
